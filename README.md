@@ -4,9 +4,7 @@ Terraform module which creates RDS instance,ec2, associated vpc and install Word
 
 ### Module Usage
 ```
-module "wordpress" {
-  source = "github.com/tecbrix/aws-wordpress"
-  name = "wordpress"
-  env  = "test"
-}
+git clone https://github.com/tecbrix/aws-wordpress.git
+cd aws-wordpress
+terraform apply
 ```
